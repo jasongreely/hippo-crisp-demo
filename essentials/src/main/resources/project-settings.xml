@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project>
-  <projectNamespace>hippocrispdemo</projectNamespace>
-  <confirmParams>false</confirmParams>
-  <selectedProjectPackage>hippo.crisp.demo</selectedProjectPackage>
-  <selectedBeansPackage>hippo.crisp.demo.beans</selectedBeansPackage>
-  <selectedComponentsPackage>hippo.crisp.demo.components</selectedComponentsPackage>
-  <selectedRestPackage>hippo.crisp.demo.rest</selectedRestPackage>
-  <setupDone>false</setupDone>
-  <templateLanguage>freemarker</templateLanguage>
-  <useSamples>true</useSamples>
-  <extraTemplates>true</extraTemplates>
+    <applicationSubModule>application</applicationSubModule>
+    <cmsModule>cms</cmsModule>
+    <confirmParams>false</confirmParams>
+    <developmentSubModule>development</developmentSubModule>
+    <enterprise>true</enterprise>
+    <extraTemplates>true</extraTemplates>
+    <projectNamespace>hippocrispdemo</projectNamespace>
+    <repositoryDataModule>repository-data</repositoryDataModule>
+    <selectedBeansPackage>hippo.crisp.demo.beans</selectedBeansPackage>
+    <selectedComponentsPackage>hippo.crisp.demo.components</selectedComponentsPackage>
+    <selectedProjectPackage>hippo.crisp.demo</selectedProjectPackage>
+    <selectedRestPackage>hippo.crisp.demo.rest</selectedRestPackage>
+    <setupDone>true</setupDone>
+    <siteModule>site</siteModule>
+    <templateLanguage>freemarker</templateLanguage>
+    <useSamples>true</useSamples>
+    <webfilesSubModule>webfiles</webfilesSubModule>
 </project>

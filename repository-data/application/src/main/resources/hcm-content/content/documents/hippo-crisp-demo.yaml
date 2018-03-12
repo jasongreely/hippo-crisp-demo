@@ -1,6 +1,8 @@
 /content/documents/hippocrispdemo:
+  .meta:order-before: administration
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: e66fc472-d3e6-4800-a476-30b209e1c7ba
   hippo:name: Hippo Crisp Demo
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: 996bcac5-86cf-49b5-a7a3-16a74863e814
