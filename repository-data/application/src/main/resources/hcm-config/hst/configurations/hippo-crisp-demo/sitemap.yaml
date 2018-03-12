@@ -49,3 +49,6 @@ definitions:
           jcr:primaryType: hst:sitemapitem
           hst:componentconfigurationid: hst:pages/contentlist
           hst:relativecontentpath: ${parent}/${1}
+      /crisp:
+        jcr:primaryType: hst:sitemapitem
+        hst:componentconfigurationid: hst:pages/crisppage
