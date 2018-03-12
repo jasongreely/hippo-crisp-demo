@@ -1,0 +1,6 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippocrispdemo/hst:catalog:
+      jcr:primaryType: hst:catalog
+      /hippocrispdemo-catalog:
+        jcr:primaryType: hst:containeritempackage
