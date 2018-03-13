@@ -50,8 +50,6 @@ public class PlainStringResourceResolver extends SimpleJacksonRestTemplateResour
 
             if(this.isSuccessfulResponse(result)) {
                 String bodyText = (String)result.getBody();
-                log.info(bodyText);
-                //JsonNode jsonNode = this.getObjectMapper().readTree(bodyText);
                 Resource resource = new PlainStringResource(bodyText);
                 if(this.isCacheEnabled()) {
                     ((Map)tlResourceResultCache.get()).put(resource, bodyText);
@@ -83,9 +81,7 @@ public class PlainStringResourceResolver extends SimpleJacksonRestTemplateResour
 
             if(this.isSuccessfulResponse(result)) {
                 String bodyText = (String)result.getBody();
-                log.info(bodyText);
-                JsonNode jsonNode = this.getObjectMapper().readTree(bodyText);
-                Resource rootResource = new JacksonResource(jsonNode);
+                Resource rootResource = new PlainStringResource(bodyText);
                 if(this.isCacheEnabled()) {
                     ((Map)tlResourceResultCache.get()).put(rootResource, bodyText);
                 }
@@ -94,12 +90,8 @@ public class PlainStringResourceResolver extends SimpleJacksonRestTemplateResour
             } else {
                 throw new ResourceException("Unexpected response status: " + result.getStatusCode());
             }
-        } catch (JsonProcessingException var11) {
-            throw new ResourceException("JSON processing error.", var11);
         } catch (RestClientException var12) {
             throw new ResourceException("REST client invocation error.", var12);
-        } catch (IOException var13) {
-            throw new ResourceException("IO error.", var13);
         } catch (Exception var14) {
             throw new ResourceException("Unknown error.", var14);
         }
