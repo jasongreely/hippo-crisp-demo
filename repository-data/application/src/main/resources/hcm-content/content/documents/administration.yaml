@@ -1,0 +1,5 @@
+/content/documents/administration:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['mix:referenceable']
+  jcr:uuid: f5c598de-0e89-402e-9079-2b2318bf0dee
+  hippostd:foldertype: [new-resource-bundle, new-untranslated-folder]

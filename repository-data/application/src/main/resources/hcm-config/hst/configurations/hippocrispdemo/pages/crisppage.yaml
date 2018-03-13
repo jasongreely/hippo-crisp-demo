@@ -1,0 +1,9 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/hippocrispdemo/hst:pages/crisppage:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: hippo.crisp.demo.components.AnimalPlainStringComponent
+        hst:template: crisp

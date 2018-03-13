@@ -1,0 +1,120 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:translations/hippo:types/hippocrispdemo:eventsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:content: Content
+        hippocrispdemo:date: Start date
+        hippocrispdemo:enddate: End date
+        hippocrispdemo:image: Image
+        hippocrispdemo:introduction: Introduction
+        hippocrispdemo:location: Location
+        hippocrispdemo:title: Title
+        jcr:name: Event
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:content: Inhoud
+        hippocrispdemo:date: Startdatum
+        hippocrispdemo:enddate: Einddatum
+        hippocrispdemo:image: Afbeelding
+        hippocrispdemo:introduction: Introductie
+        hippocrispdemo:location: Locatie
+        hippocrispdemo:title: Titel
+        jcr:name: Evenement
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:content: Contenu
+        hippocrispdemo:date: Date de début
+        hippocrispdemo:enddate: Date de fin
+        hippocrispdemo:image: Image
+        hippocrispdemo:introduction: Introduction
+        hippocrispdemo:location: Lieu
+        hippocrispdemo:title: Titre
+        jcr:name: Événement
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:content: Inhalt
+        hippocrispdemo:date: Startdatum
+        hippocrispdemo:enddate: Enddatum
+        hippocrispdemo:image: Abbildung
+        hippocrispdemo:introduction: Einführung
+        hippocrispdemo:location: Standort
+        hippocrispdemo:title: Titel
+        jcr:name: Event
+    /hippo:configuration/hippo:translations/hippo:types/hippocrispdemo:newsdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:author: Author
+        hippocrispdemo:content: Content
+        hippocrispdemo:date: Date
+        hippocrispdemo:image: Image
+        hippocrispdemo:introduction: Introduction
+        hippocrispdemo:location: Location
+        hippocrispdemo:source: Source
+        hippocrispdemo:title: Title
+        jcr:name: News Item
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:author: Auteur
+        hippocrispdemo:content: Inhoud
+        hippocrispdemo:date: Datum
+        hippocrispdemo:image: Afbeelding
+        hippocrispdemo:introduction: Introductie
+        hippocrispdemo:location: Locatie
+        hippocrispdemo:source: Bron
+        hippocrispdemo:title: Titel
+        jcr:name: Nieuwsbericht
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:author: Verfasser
+        hippocrispdemo:content: Inhalt
+        hippocrispdemo:date: Datum
+        hippocrispdemo:image: Abbildung
+        hippocrispdemo:introduction: Einführung
+        hippocrispdemo:location: Standort
+        hippocrispdemo:source: Quelle
+        hippocrispdemo:title: Titel
+        jcr:name: News
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:author: Auteur
+        hippocrispdemo:content: Contenu
+        hippocrispdemo:date: Date
+        hippocrispdemo:image: Image
+        hippocrispdemo:introduction: Introduction
+        hippocrispdemo:location: Lieu
+        hippocrispdemo:source: Source
+        hippocrispdemo:title: Titre
+        jcr:name: Message d'info
+    /hippo:configuration/hippo:translations/hippo:types/hippocrispdemo:contentdocument:
+      jcr:primaryType: hipposys:resourcebundles
+      /en:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:content: Content
+        hippocrispdemo:introduction: Introduction
+        hippocrispdemo:publicationdate: Publication date
+        hippocrispdemo:title: Title
+        jcr:name: Simple Document
+      /nl:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:content: Inhoud
+        hippocrispdemo:introduction: Introductie
+        hippocrispdemo:publicationdate: Publicatiedatum
+        hippocrispdemo:title: Titel
+        jcr:name: Eenvoudig Document
+      /fr:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:content: Contenu
+        hippocrispdemo:introduction: Introduction
+        hippocrispdemo:publicationdate: Date de publication
+        hippocrispdemo:title: Titre
+        jcr:name: Document simple
+      /de:
+        jcr:primaryType: hipposys:resourcebundle
+        hippocrispdemo:content: Inhalt
+        hippocrispdemo:introduction: Einführung
+        hippocrispdemo:publicationdate: Publikationsdatum
+        hippocrispdemo:title: Titel
+        jcr:name: Einfaches Dokument

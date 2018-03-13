@@ -4,3 +4,17 @@ definitions:
       jcr:primaryType: hst:catalog
       /hippocrispdemo-catalog:
         jcr:primaryType: hst:containeritempackage
+        /animalplainstring:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: hippo.crisp.demo.components.AnimalPlainStringComponent
+          hst:iconpath: images/essentials/catalog-component-icons/events-list.png
+          hst:label: Animal - Plain String
+          hst:template: animal-plain
+          hst:xtype: hst:item
+        /animaljson:
+          jcr:primaryType: hst:containeritemcomponent
+          hst:componentclassname: hippo.crisp.demo.components.AnimalJsonComponent
+          hst:iconpath: images/essentials/catalog-component-icons/events-list.png
+          hst:label: Animal - JSON
+          hst:template: animal-json
+          hst:xtype: hst:item

@@ -1,0 +1,7 @@
+/hst:hst/hst:configurations/hippocrispdemo/hst:workspace/hst:containers/homepage/main/animaljson:
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: hippo.crisp.demo.components.AnimalJsonComponent
+  hst:iconpath: images/essentials/catalog-component-icons/events-list.png
+  hst:label: Animal - JSON
+  hst:template: animal-json
+  hst:xtype: hst:item
