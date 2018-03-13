@@ -1,3 +1,18 @@
+Overview
+========
+
+This demo project shows the use of a custom resource and resource resolver to handle plain text (non-JSON) responses
+when using the Hippo CRISP plugin:
+
+AnimalPlainStringComponent#doBeforeRender : request the Plain Text resource from the CRISP Registry and send as request attribute
+ |
+  -> PlainStringResourceResolver#resolve : creates resource and populates cache
+ |   |
+ |    -> PlainStringResource : initializes with API return payload string and returns ValueMap() with default key = "string"
+ |
+  -> animal-string.ftl : retrieve and display value from valuemap
+
+
 Running locally
 ===============
 

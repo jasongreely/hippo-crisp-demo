@@ -20,6 +20,9 @@ public class AnimalPlainStringComponent extends EssentialsContentComponent {
         ResourceServiceBroker broker = HippoServiceRegistry.getService(ResourceServiceBroker.class);
         Resource plainResource = broker.resolve(PLAIN_TEXT_RESOURCE, "/animal/string");
 
+        //Retrieve string value if necessary
+        String plainString = (String) plainResource.getValueMap().get("string");
+
         request.setAttribute("plainResource", plainResource);
     }
 }
