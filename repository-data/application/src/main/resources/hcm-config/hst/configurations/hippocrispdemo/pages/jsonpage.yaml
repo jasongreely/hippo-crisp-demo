@@ -5,5 +5,5 @@ definitions:
       hst:referencecomponent: hst:abstractpages/base
       /main:
         jcr:primaryType: hst:component
-        hst:componentclassname: hippo.crisp.demo.components.JsonComponent
+        hst:componentclassname: hippo.crisp.demo.components.AnimalJsonComponent
         hst:template: crisp

@@ -11,16 +11,15 @@ import org.onehippo.cms7.services.HippoServiceRegistry;
 /**
  * Created by jgreely on 3/12/18.
  */
-public class PlainComponent extends EssentialsContentComponent {
+public class AnimalPlainStringComponent extends EssentialsContentComponent {
 
     private static String PLAIN_TEXT_RESOURCE = "plainTextResource";
 
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response){
         ResourceServiceBroker broker = HippoServiceRegistry.getService(ResourceServiceBroker.class);
-        Resource plainResource = broker.resolve(PLAIN_TEXT_RESOURCE, "/string");
-        String resultString = (String) plainResource.getValue("string");
-        request.setAttribute("resultString", resultString);
+        Resource plainResource = broker.resolve(PLAIN_TEXT_RESOURCE, "/animal/string");
+
         request.setAttribute("plainResource", plainResource);
     }
 }

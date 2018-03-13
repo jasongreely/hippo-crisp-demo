@@ -30,7 +30,7 @@
             <list>
                 <bean class="org.apache.cxf.jaxrs.lifecycle.SingletonResourceProvider">
                     <constructor-arg>
-                        <bean class="hippo.crisp.demo.rest.StringEndpoint"/>
+                        <bean class="hippo.crisp.demo.rest.AnimalEndpoint"/>
                     </constructor-arg>
                 </bean>
             </list>

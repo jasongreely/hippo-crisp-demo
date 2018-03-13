@@ -10,15 +10,15 @@ import org.onehippo.cms7.services.HippoServiceRegistry;
 /**
  * Created by jgreely on 3/13/18.
  */
-public class JsonComponent extends EssentialsContentComponent {
+public class AnimalJsonComponent extends EssentialsContentComponent {
 
     private static String JSON_RESOURCE = "jsonResource";
 
     @Override
     public void doBeforeRender(HstRequest request, HstResponse response){
         ResourceServiceBroker broker = HippoServiceRegistry.getService(ResourceServiceBroker.class);
-        Resource plainResource = broker.resolve(JSON_RESOURCE, "/json");
-        String result = plainResource.toString();
-        request.setAttribute("result", result);
+        Resource resource = broker.resolve(JSON_RESOURCE, "/animal/json");
+
+        request.setAttribute("resource", resource);
     }
 }
