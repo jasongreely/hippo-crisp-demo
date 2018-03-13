@@ -29,3 +29,9 @@ definitions:
       /crisp:
         jcr:primaryType: hst:template
         hst:renderpath: webfile:/freemarker/hippocrispdemo/plain-string.ftl
+      /animal-plain:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hippocrispdemo/animal-string.ftl
+      /animal-json:
+        jcr:primaryType: hst:template
+        hst:renderpath: webfile:/freemarker/hippocrispdemo/animal-json.ftl

@@ -1,0 +1,8 @@
+/hst:hst/hst:configurations/hippocrispdemo/hst:workspace/hst:containers/homepage/main/animalplainstring:
+  .meta:order-before: animaljson
+  jcr:primaryType: hst:containeritemcomponent
+  hst:componentclassname: hippo.crisp.demo.components.AnimalPlainStringComponent
+  hst:iconpath: images/essentials/catalog-component-icons/events-list.png
+  hst:label: Animal - Plain String
+  hst:template: animal-plain
+  hst:xtype: hst:item
