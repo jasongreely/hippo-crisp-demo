@@ -1,12 +1,8 @@
 package hippo.crisp.demo.resolver;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonNode;
 import org.onehippo.cms7.crisp.api.exchange.ExchangeHint;
-import org.onehippo.cms7.crisp.api.resource.AbstractResource;
 import org.onehippo.cms7.crisp.api.resource.Resource;
 import org.onehippo.cms7.crisp.api.resource.ResourceException;
-import org.onehippo.cms7.crisp.core.resource.jackson.JacksonResource;
 import org.onehippo.cms7.crisp.core.resource.jackson.SimpleJacksonRestTemplateResourceResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -7,7 +7,6 @@ import org.onehippo.cms7.crisp.api.resource.Resource;
 import org.onehippo.cms7.essentials.components.EssentialsContentComponent;
 import org.onehippo.cms7.services.HippoServiceRegistry;
 
-import javax.imageio.spi.ServiceRegistry;
 
 /**
  * Created by jgreely on 3/12/18.
