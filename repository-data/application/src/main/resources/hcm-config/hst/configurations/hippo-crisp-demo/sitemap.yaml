@@ -51,4 +51,9 @@ definitions:
           hst:relativecontentpath: ${parent}/${1}
       /crisp:
         jcr:primaryType: hst:sitemapitem
-        hst:componentconfigurationid: hst:pages/crisppage
+        /json:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/jsonpage
+        /plain:
+          jcr:primaryType: hst:sitemapitem
+          hst:componentconfigurationid: hst:pages/crisppage
