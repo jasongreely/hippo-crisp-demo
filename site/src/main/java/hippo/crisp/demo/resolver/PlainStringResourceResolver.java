@@ -3,7 +3,7 @@ package hippo.crisp.demo.resolver;
 import org.onehippo.cms7.crisp.api.exchange.ExchangeHint;
 import org.onehippo.cms7.crisp.api.resource.Resource;
 import org.onehippo.cms7.crisp.api.resource.ResourceException;
-import org.onehippo.cms7.crisp.core.resource.jackson.SimpleJacksonRestTemplateResourceResolver;
+import org.onehippo.cms7.crisp.core.resource.jackson.AbstractJacksonRestTemplateResourceResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpMethod;
@@ -17,7 +17,7 @@ import java.util.Map;
 /**
  * Created by jgreely on 3/12/18.
  */
-public class PlainStringResourceResolver extends SimpleJacksonRestTemplateResourceResolver {
+public class PlainStringResourceResolver extends AbstractJacksonRestTemplateResourceResolver {
     private static Logger log = LoggerFactory.getLogger(PlainStringResourceResolver.class);
 
     private static ThreadLocal<Map<Resource, Object>> tlResourceResultCache = new ThreadLocal<Map<Resource, Object>>() {
